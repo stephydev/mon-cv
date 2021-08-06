@@ -1,0 +1,114 @@
+.conteneur{
+    margin: 5% 5% 5% 5%;
+}
+.titre{
+    margin-left: 15%
+}
+
+.blocPresentationPhoto{
+    width: 100%;
+    display: flex;
+    border-radius: 5%;
+    border: 1px solid;
+    padding-left: 5%;
+}
+.blocPresentationPhoto:hover{
+    width: 100%;
+    display: flex;
+    border-radius: 5%;
+    border: 1px solid;
+    padding-left: 5%;
+    box-shadow: 5px 5px 5px 5px rgb(80, 33, 167);
+}
+
+.presentation{
+    float: right;
+    width: 100%;
+}
+
+.photo{
+    margin: 5%;
+    width: 75%;
+    border-radius: 10%;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 25%;
+}
+
+.experience {
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid;
+    padding-left: 5%;
+}
+.experience:hover {
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid;
+    padding-left: 5%;
+    box-shadow: 5px 5px 5px 5px rgb(31, 76, 134)
+}
+.formation {
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid;
+    padding-left: 5%;
+}
+.formation:hover {
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid;
+    padding-left: 5%;
+    box-shadow: 5px 5px 5px 5px rgb(31, 76, 134)
+}
+.competence {
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid;
+    padding-left: 5%;
+}
+.competence:hover {
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid;
+    padding-left: 5%;
+    box-shadow: 5px 5px 5px 5px rgb(31, 76, 134)
+}
+.langue {
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid;
+    padding-left: 5%;
+}
+.langue:hover {
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid;
+    padding-left: 5%;
+    box-shadow: 5px 5px 5px 5px rgb(31, 76, 134)
+}
+.referent {
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid;
+    padding-left: 5%;
+}
+.referent:hover {
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid;
+    padding-left: 5%;
+    box-shadow: 5px 5px 5px 5px rgb(31, 76, 134)
+}
+.div
+{
+    color: blue;
+}
+fieldset {
+    width: 100%;
+    border-radius: 5%;
+    padding-left: 5%;
+}
