@@ -12,6 +12,8 @@
     border: 1px solid;
     padding-left: 5%;
 }
+
+
 .blocPresentationPhoto:hover{
     width: 100%;
     display: flex;
