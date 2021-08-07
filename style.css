@@ -1,114 +1,55 @@
-.conteneur{
-    margin: 5% 5% 5% 5%;
+body{
+    background-color: rgb(246, 253, 254);
+}
+.infophoto{
+    height: 250px;
+}
+.info{
+    float: left;
+}
+.photo{
+    float: right;
+}
+.section{
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.sec-gauche{
+    float: left;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: justify;
+ 
+}
+.sec-droite{
+    margin-left: 150px;
+}
+.petit{
+    font-size: 28px;
+    color: #3388BB;
+    border-bottom: 3px solid #3388DD;
 }
 .titre{
-    margin-left: 15%
+    font-weight: bold;
 }
-
-.blocPresentationPhoto{
-    width: 100%;
-    display: flex;
-    border-radius: 5%;
-    border: 1px solid;
-    padding-left: 5%;
+.ref{
+    font-size: 28px;
+    color: #3388BB;
+  
 }
-.blocPresentationPhoto:hover{
-    width: 100%;
-    display: flex;
-    border-radius: 5%;
-    border: 1px solid;
-    padding-left: 5%;
-    box-shadow: 5px 5px 5px 5px rgb(80, 33, 167);
+.habillage{
+    width: 780px;  
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: 5px solid #3388CC;
+    border-radius: 10px ;
+    box-shadow: 2px 4px 3px #3388BB;
+    padding: 75px;
+    background-color:whitesmoke;
 }
-
-.presentation{
-    float: right;
-    width: 100%;
-}
-
-.photo{
-    margin: 5%;
-    width: 75%;
-    border-radius: 10%;
-}
-
-hr{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 25%;
-}
-
-.experience {
-    width: 100%;
-    border-radius: 5%;
-    border: 1px solid;
-    padding-left: 5%;
-}
-.experience:hover {
-    width: 100%;
-    border-radius: 5%;
-    border: 1px solid;
-    padding-left: 5%;
-    box-shadow: 5px 5px 5px 5px rgb(31, 76, 134)
-}
-.formation {
-    width: 100%;
-    border-radius: 5%;
-    border: 1px solid;
-    padding-left: 5%;
-}
-.formation:hover {
-    width: 100%;
-    border-radius: 5%;
-    border: 1px solid;
-    padding-left: 5%;
-    box-shadow: 5px 5px 5px 5px rgb(31, 76, 134)
-}
-.competence {
-    width: 100%;
-    border-radius: 5%;
-    border: 1px solid;
-    padding-left: 5%;
-}
-.competence:hover {
-    width: 100%;
-    border-radius: 5%;
-    border: 1px solid;
-    padding-left: 5%;
-    box-shadow: 5px 5px 5px 5px rgb(31, 76, 134)
-}
-.langue {
-    width: 100%;
-    border-radius: 5%;
-    border: 1px solid;
-    padding-left: 5%;
-}
-.langue:hover {
-    width: 100%;
-    border-radius: 5%;
-    border: 1px solid;
-    padding-left: 5%;
-    box-shadow: 5px 5px 5px 5px rgb(31, 76, 134)
-}
-.referent {
-    width: 100%;
-    border-radius: 5%;
-    border: 1px solid;
-    padding-left: 5%;
-}
-.referent:hover {
-    width: 100%;
-    border-radius: 5%;
-    border: 1px solid;
-    padding-left: 5%;
-    box-shadow: 5px 5px 5px 5px rgb(31, 76, 134)
-}
-.div
-{
-    color: blue;
-}
-fieldset {
-    width: 100%;
-    border-radius: 5%;
-    padding-left: 5%;
-}
+.fonction{
+    font-size: 35;
+    font-weight: bolder;
+    color: #3388BB;
+}   
