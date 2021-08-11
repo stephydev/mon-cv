@@ -1,55 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
 body{
-    background-color: rgb(246, 253, 254);
+    background-color: #444;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
 }
-.infophoto{
-    height: 250px;
-}
-.info{
-    float: left;
-}
-.photo{
-    float: right;
-}
-.section{
-    margin-bottom: 70px;
-    text-align: justify;
-}
-.sec-gauche{
-    float: left;
-    font-weight: bolder;
+.bold{
     font-size: 20px;
-    text-align: justify;
- 
+    font-family: 700;
+    text-transform: uppercase;
 }
-.sec-droite{
-    margin-left: 150px;
-}
-.petit{
-    font-size: 28px;
-    color: #3388BB;
-    border-bottom: 3px solid #3388DD;
-}
-.titre{
-    font-weight: bold;
-}
-.ref{
-    font-size: 28px;
-    color: #3388BB;
-  
-}
-.habillage{
-    width: 780px;  
-    margin: auto;
-    font-family: sans-serif;
+.semi_bold{
     font-size: 16px;
-    border: 5px solid #3388CC;
-    border-radius: 10px ;
-    box-shadow: 2px 4px 3px #3388BB;
-    padding: 75px;
-    background-color:whitesmoke;
+    font-weight: 600;
 }
-.fonction{
-    font-size: 35;
-    font-weight: bolder;
-    color: #3388BB;
-}   
+.cv{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+.cv .cv_gauche{
+    width: 280px;
+    background-color: #f60091;
+}
+.cv .cv_gauche .cv_profile{
+    width: 100%;
+    height: 280px;
+}
+.cv .cv_gauche .cv_profile .img{
+    width: 100%;
+    border-radius: 120px;
+    margin-top: 1.6rem;
+
+}
+.cv .cv_gauche .cv_contenu{
+    padding: 0 25px;
+    padding-top: 10px;
+}
+.cv .titre{
+    margin: 20px 0;
+}
+.cv .bold{
+    color: aqua;
+}
+.cv .semi_bold {
+    color: aqua;
+    opacity: 0,6;
+}
+.cv .cv_article{
+    padding: 20px 0;
+    border-bottom: 2px solid #fff;
+}
+.cv .cv_article:last-child{
+    border-bottom: 0px;
+}
+.cv .cv_gauche ul li{
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cv .cv_gauche ul li:last-child  {
+    margin-bottom: 0px;
+}
+.cv .cv_gauche ul li .icon{
+    width: 35px;
+    height: 35px;
+    color:  #f60091;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+}
+.cv .cv_droit .cv_loisir ul li i,
+.cv .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cv .cv_gauche .cv_compentence ul li{
+    justify-content: space-between;
+}
+.cv .cv_gauche .cv_compentence .competence_progress span{
+    content: ;
+    background-color: #fff;
+    height: 20px;
+}
+.cv .cv_gauche .cv_compentence ul li .nom_competence{
+    width: 25%;
+}
+.cv .cv_gauche .cv_compentence ul li .competence_progress{
+    width: 60%;
+    margin: 0.5px;
+    height: 5px;
+    background: #fff;
+    position: relative;
+}
+.cv .cv_gauche .cv_compentence ul li .competence_progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(2,100,100);
+    opacity: 0,7;
+    height: 100%;
+}
+.cv .cv_gauche .cv_compentence ul li .compentence_pourcentage{
+    width: 15%;
+}
+.cv .cv_droit{
+    width: 520px;
+    background-color: aqua;
+    color: #444;
+    padding: 25px;
+}
+.cv .cv_droit .bold{
+    color: #f60091;
+p {
+
+ }
+}
+.cv .cv_droit .cv_travail ul,
+.cv .cv_droit .cv_formation ul{
+    padding-left: 40px;
+    overflow: hidden;
+}
+.cv .cv_droit ul li{
+    position: relative;
+}
+.cv .cv_droit ul li .date{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.cv .cv_droit ul li .info{
+    margin-bottom: 15px;
+}
+.cv .cv_droit ul li:last-child .info{
+    margin-bottom: 0;
+}
+
+.cv .cv_droit .cv_loisir ul{
+    display: flex;
+    justify-content: space-between;
+}
+.cv .cv_droit .cv_loisir ul li{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #f60091;
+    border-radius: 50%;
+    background:#fff;
+    color: #f60091;
+}
+.cv .cv_droit .cv_loisir ul li i{
+    font-size: 30px;
+}
+.cv .cv_droit .cv_loisir ul li::before{
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: -52px;
+    width: 50px;
+    height: 2px;
+    background: #f60091;
+}
+.cv .cv_droit .cv_loisir ul li:last-child::before{
+    visibility: hidden;
+}
