@@ -130,7 +130,7 @@ p {
 }
 .cv .cv_droit .cv_travail ul,
 .cv .cv_droit .cv_formation ul{
-    padding-left: 40px;
+    padding-left: 40%;
     overflow: hidden;
 }
 .cv .cv_droit ul li{
