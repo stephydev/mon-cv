@@ -14,7 +14,7 @@ body{
 }
 .bold{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
 }
 .semi_bold{
@@ -39,7 +39,6 @@ body{
     width: 100%;
     border-radius: 120px;
     margin-top: 1.6rem;
-
 }
 .cv .cv_gauche .cv_contenu{
     padding: 0 25px;
@@ -91,7 +90,7 @@ body{
     justify-content: space-between;
 }
 .cv .cv_gauche .cv_compentence .competence_progress span{
-    content: "";
+    content: 0PX;
     background-color: #fff;
     height: 20px;
 }
@@ -124,10 +123,10 @@ body{
 }
 .cv .cv_droit .bold{
     color: #f60091;
-}  
+}
 .cv .cv_droit .cv_travail ul,
 .cv .cv_droit .cv_formation ul{
-    padding-left: 40%;
+    padding-left: 40px;
     overflow: hidden;
 }
 .cv .cv_droit ul li{
