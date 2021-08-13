@@ -35,7 +35,7 @@ body{
     width: 100%;
     height: 280px;
 }
-.cv .cv_gauche .cv_profil .img{
+.cv .cv_gauche .cv_profil img{
     width: 100%;
     border-radius: 120px;
     margin-top: 1.6rem;
@@ -91,7 +91,7 @@ body{
     justify-content: space-between;
 }
 .cv .cv_gauche .cv_compentence .competence_progress span{
-    content: ;
+    content: "";
     background-color: #fff;
     height: 20px;
 }
@@ -124,10 +124,7 @@ body{
 }
 .cv .cv_droit .bold{
     color: #f60091;
-p {
-
- }
-}
+}  
 .cv .cv_droit .cv_travail ul,
 .cv .cv_droit .cv_formation ul{
     padding-left: 40%;
