@@ -8,10 +8,10 @@
 }
 body{
     background-color: #444;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 22px;
     color: #fff;
-}
+} 
 .bold{
     font-size: 20px;
     font-weight: 700;
@@ -36,13 +36,15 @@ body{
     height: 280px;
 }
 .cv .cv_gauche .cv_profil img{
-    width: 100%;
-    border-radius: 120px;
+    width: 70%;
+    border-radius: 800px;
     margin-top: 1.6rem;
+    height: 80%;
 }
 .cv .cv_gauche .cv_contenu{
     padding: 0 25px;
     padding-top: 10px;
+    border-left: #f60091;
 }
 .cv .titre{
     margin: 20px 0;
@@ -70,8 +72,8 @@ body{
     margin-bottom: 0px;
 }
 .cv .cv_gauche ul li .icon{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     color:  #f60091;
     background-color: #fff;
     border-radius: 50%;
@@ -115,8 +117,13 @@ body{
 .cv .cv_gauche .cv_compentence ul li .compentence_pourcentage{
     width: 15%;
 }
+.cv .fond{
+    background-color:#f60091;
+}
 .cv .cv_droit{
     width: 520px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
     background-color: aqua;
     color: #444;
     padding: 25px;
@@ -142,6 +149,27 @@ body{
 }
 .cv .cv_droit ul li:last-child .info{
     margin-bottom: 0;
+}
+.cv .cv_droit .cv_travail ul li::before,
+.cv .cv_droit .cv_formation ul li::before{
+    content: "";
+    position: relative;
+    top: 5px;
+    left: -23px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 3px solid #f60091;
+}
+.cv .cv_droit .cv_formation ul li::after,
+.cv .cv_droit .cv_travail ul li::after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 3px;
+    height: 133px;
+    background:  #f60091;
 }
 
 .cv .cv_droit .cv_loisir ul{
